@@ -4,82 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bharath Bharathi | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: #e5e7eb;
-    }
-    header {
-      background: linear-gradient(135deg, #2563eb, #1e40af);
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-      color: #dbeafe;
-    }
-    nav {
-      background: #020617;
-      padding: 10px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-    }
-    nav a {
-      color: #93c5fd;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    nav a:hover {
-      color: #fff;
-    }
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 60px 20px;
-    }
-    h2 {
-      color: #60a5fa;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #1e3a8a;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-    .card {
-      background: #020617;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-    }
-    ul {
-      line-height: 1.8;
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #020617;
-      color: #94a3b8;
-    }
-    .highlight {
-      color: #38bdf8;
-      font-weight: 600;
-    }
-  </style>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
 <header>
   <h1>Bharath Bharathi A</h1>
-  <p>System Software Engineer | OpenBMC | ARM | Firmware Development</p>
+  <p>System Software Engineer | OpenBMC | ARM | Firmware</p>
 </header>
 
 <nav>
@@ -90,99 +23,74 @@
   <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
+<section id="about" class="fade-in">
   <h2>About Me</h2>
   <div class="card">
     <p>
-      I am a <span class="highlight">System Software Developer</span> with hands-on experience in
-      <span class="highlight">OpenBMC</span>, ARM-based platforms, and firmware development.
-      Currently working on AMI OpenBMC projects, I actively contribute to system-level features,
-      debugging, testing, and integration. I am passionate about low-level programming,
-      embedded systems, and building reliable firmware solutions.
+      System Software Engineer with hands-on experience in
+      <b>OpenBMC</b>, ARM-based platforms, and firmware development.
+      Currently working on AMI OpenBMC projects.
     </p>
   </div>
 </section>
 
-<section id="skills">
+<section id="skills" class="fade-in">
   <h2>Technical Skills</h2>
   <div class="card">
     <ul>
       <li>C, C++</li>
       <li>Data Structures & Algorithms</li>
-      <li>Embedded Systems & Firmware Development</li>
+      <li>Embedded Systems</li>
       <li>ARM Architecture</li>
       <li>OpenBMC, Linux</li>
-      <li>Debugging, Testing & Documentation</li>
     </ul>
   </div>
 </section>
 
-<section id="experience">
-  <h2>Professional Experience</h2>
+<section id="experience" class="fade-in">
+  <h2>Experience</h2>
   <div class="card">
     <h3>American Megatrends India (AMI)</h3>
-    <p><b>System Software Engineer / Project Intern</b></p>
     <ul>
-      <li>Worked on <span class="highlight">OpenBMC</span> platform for ARM-based systems.</li>
-      <li>Contributed to BIOS and BMC feature development and enhancements.</li>
-      <li>Implemented and enhanced <span class="highlight">BIOS POST screenshot functionality</span>.</li>
-      <li>Involved in coding, debugging, validation, and documentation.</li>
-      <li>Collaborated closely with cross-functional firmware teams.</li>
-      <li>Recipient of <span class="highlight">Team Excellence Award</span> for project contributions.</li>
+      <li>Worked on OpenBMC firmware for ARM platforms</li>
+      <li>Implemented BIOS POST screenshot feature</li>
+      <li>Debugging, testing, and documentation</li>
+      <li>Recipient of Team Excellence Award</li>
     </ul>
   </div>
 </section>
 
-<section id="projects">
+<section id="projects" class="fade-in">
   <h2>Projects</h2>
-
   <div class="card">
-    <h3>OpenBMC Firmware Development (AMI)</h3>
     <ul>
-      <li>Worked on ARM-based OpenBMC platform integration.</li>
-      <li>Enhanced system services and firmware-level features.</li>
-      <li>Debugged boot issues and validated BMC functionality.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>BIOS POST Screenshot Feature</h3>
-    <ul>
-      <li>Designed and implemented screenshot capture during BIOS POST.</li>
-      <li>Handled low-level firmware interactions and testing.</li>
-      <li>Improved debugging and validation process for BIOS developers.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Super Market Billing System</h3>
-    <ul>
-      <li>Developed using C language.</li>
-      <li>Implemented billing logic and inventory handling.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Microwave Oven Simulator</h3>
-    <ul>
-      <li>Simulated working modes of a microwave oven.</li>
-      <li>Developed using embedded concepts and MPLAB X IDE.</li>
+      <li>OpenBMC Firmware Development</li>
+      <li>BIOS POST Screenshot Feature</li>
+      <li>Microwave Oven Simulator</li>
+      <li>Super Market Billing System</li>
     </ul>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="fade-in">
   <h2>Contact</h2>
   <div class="card">
     <p>Email: bharathbharathi.a@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/bharath-bharathi-a-13a2141ab" style="color:#60a5fa">View Profile</a></p>
-    <p>Location: Salem, India</p>
+    <p>
+      LinkedIn:
+      <a href="https://linkedin.com/in/bharath-bharathi-a-13a2141ab" target="_blank">
+        View Profile
+      </a>
+    </p>
   </div>
 </section>
 
 <footer>
-  <p>© 2025 Bharath Bharathi A | Portfolio</p>
+  <p>© 2025 Bharath Bharathi A</p>
 </footer>
 
+<!-- JS -->
+<script src="js/script.js"></script>
 </body>
 </html>
+
